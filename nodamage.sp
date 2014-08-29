@@ -50,7 +50,7 @@ stock bool:IsValidClient(client, bool:bCheckAlive=true)
 	  return false;
 	if(IsClientSourceTV(client) || IsClientReplay(client)) 
 	  return false;
-	if(bCheckAlive) return 
-	  IsPlayerAlive(client);
+	if(bCheckAlive) 
+		return IsPlayerAlive(client);
 	return true;
 }
