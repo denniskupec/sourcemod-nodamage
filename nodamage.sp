@@ -2,15 +2,12 @@
 #include <sourcemod>
 #include <sdkhooks>
 
-#define PLUGIN_NAME "No Damage"
-#define PLUGIN_VERSION "1.0"
-
 public Plugin:myinfo =
 {
-   name = PLUGIN_NAME,
+   name = "No Damage",
    author = "Dennis Kupec",
    description = "Prevents player damage.",
-   version = PLUGIN_VERSION,
+   version = "1.0",
    url = "https://github.com/denniskupec"
 }
 
